@@ -10,7 +10,7 @@ language: "en"     # lowercase two-letter ISO language code such as "fr" (see ht
 latitude: "55.96"        # decimal latitude of workshop venue (use https://www.latlong.net/)
 longitude: "-3.23"       # decimal longitude of the workshop venue (use https://www.latlong.net)
 humandate: "22 - 25 November, 2021"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
-humantime: "9:00 am - 5:00 pm"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
+humantime: "09:00 - 17:00"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
 startdate: 2021-11-22      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2021-11-25        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Graeme Grimes", "instructor two"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
@@ -77,7 +77,7 @@ displayed if the 'eventbrite' field in the header is not set.
 {% endif %}
 
 
-<h2 id="general">General Information</h2>
+<h2 id="general">Overview</h2>
 
 {% comment %}
 INTRODUCTION
@@ -86,7 +86,7 @@ Edit the general explanatory paragraph below if you want to change
 the pitch.
 {% endcomment %}
 
-**Workflows with NextFlow**
+**Workflows with Nextflow**
 
 This lesson is a two day introduction to the workflow manager Nextflow, and nf-core, a community effort to collect a curated set of analysis pipelines built using Nextflow.
 
@@ -99,6 +99,8 @@ This lesson motivates the use of Nextflow and nf-core as a development tool for 
 **Ed-DaSH**
 
 Ed-DaSH is a **Da**ta **S**cience training programme for **H**ealth and Biosciences. The [team](https://edcarp.github.io/Ed-DaSH/ed_dash_team.html) has developed workshops using [The Carpentries][carpentries]{:target="_blank"} platform on the following topics. See [workshops](https://edcarp.github.io/Ed-DaSH/workshops.html) for dates and registration details. All workshops will be delivered remotely.
+
+<h2 id="general">General Information</h2>
 
 {% comment %}
 AUDIENCE
