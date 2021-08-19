@@ -1,14 +1,4 @@
 {% assign favicon_url = relative_root_path | append: '/assets/favicons/'  %}
 
-{% if site.carpentry == 'swc' %}
-{% assign carpentry = 'Software Carpentry' %}
-{% elsif site.carpentry == 'dc' %}
-{% assign carpentry = 'Data Carpentry' %}
-{% elsif site.carpentry == 'lc' %}
-{% assign carpentry = 'Library Carpentry' %}
-{% elsif site.carpentry == 'cp' %}
-{% assign carpentry = 'The Carpentries' %}
-{% endif %}
-
     <!-- Favicons for everyone -->
     <link rel="favicon" type="image/png" href="/assets/favicons/favicon.png" />
