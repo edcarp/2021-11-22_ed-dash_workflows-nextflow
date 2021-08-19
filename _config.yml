@@ -48,7 +48,7 @@ flavor: "r"
 # Most workshops don't use extra pages. More information about extra
 # pages are included in the README:
 # https://github.com/carpentries/workshop-template#creating-extra-pages
-title: "Workflows with NextFlow"
+title: "Workflows with Nextflow"
 
 #------------------------------------------------------------
 # Pilot workshop settings (only relevant for lesson pilots).
