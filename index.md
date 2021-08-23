@@ -359,7 +359,32 @@ of code below the Schedule `<h2>` header below with
 
 <h2 id="schedule">Schedule</h2>
 
+{% if site.carpentry == "swc" %}
+{% include swc/schedule.html %}
+
+{% elsif site.carpentry == "dc" %}
+{% include dc/schedule.html %}
+
+{% elsif site.carpentry == "lc" %}
+{% include lc/schedule.html %}
+
+{% elsif site.carpentry == "pilot" %}
+
+The lesson taught in this workshop is being piloted and a precise schedule is yet to be established. 
+
 {% include custom-schedule.html %}
+
+{% comment %}
+Edit/replace the text above if you want to include a schedule table.
+See the contents of the _includes/custom-schedule.html file for an example of
+how one of these schedule tables is constructed.
+
+{% endcomment %}
+
+{% else %}
+{% include custom-schedule.html %}
+
+{% endif %}
 
 <hr/>
 
